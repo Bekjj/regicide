@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Regicide — новый взгляд на шашки
+О проекте
+У меня была идея: сделать для шашек платформу уровня Chess.com. Если посмотреть на текущие сайты с шашками, они почти все выглядят так, будто застряли в нулевых. Мне захотелось это исправить.
 
-## Getting Started
+Сразу честно скажу: техническая часть и сам код здесь, возможно, слабоваты. Я не успел сделать супер-сложную логику, но я сделал ставку именно на идею и на то, как это выглядит для пользователя.
 
-First, run the development server:
+Почему это может сработать
+Обычные шашки часто кажутся скучными, особенно молодежи. Поэтому я попытался добавить геймификацию:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Боссы вместо обычного ИИ: Играть против ботов с разными характерами, стилями и комментариями гораздо веселее. Это дает хоть какой-то интерактив.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Рейтинг и история: Я добавил систему Эло и архив матчей, потому что людям всегда хочется видеть свой прогресс и соревноваться.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Потенциал для монетизации: В игре уже есть базовая экономика — магазин скинов и монеты за победы. По идее, сюда очень легко прикрутить донат (покупку уникальных досок или премиум-статуса), чтобы проект мог себя окупать.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Короче говоря, я хотел показать концепт: как с помощью дизайна и пары фишек можно превратить старую настольную игру во что-то современное и залипательное
